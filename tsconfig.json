@@ -1,8 +1,0 @@
-{
-  "compilerOptions": {
-    "lib": ["ES6"],
-    "esModuleInterop": true,
-    "strict": true,
-    "strictNullChecks": true
-  }
-}
