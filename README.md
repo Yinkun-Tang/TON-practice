@@ -40,3 +40,7 @@ A3: Website Record: https://testnet.tonscan.org/
 Q4: How does the message get composed?
 
 A4: [MineMessageParams] indicates what meesage is expected to be read from the smart contract, and [Queries] indicates all possible queries the smart contract could understand. So the [Queries.mine] receives the parameters to return a cell, which is a TON data structure storing memory. The cell packs the necessary data inside itself and sends to the smart contract.
+
+### How to run the code?
+
+Cloned the github repository of the onboarding challenge to the local environment, install required package, then copy and paste the index.ts file to the local repository folder and replace the wallet address with the personal wallet address on Testnet.
