@@ -51,4 +51,4 @@ Cloned the github repository of the onboarding challenge to the local environmen
 
 ### What does the program do?
 
-Generally, the program packs the provided data in cells, then sends the cells as message to the smart contract when user signs the transaction on the device.
+Generally, the program retrieves the mining data from the collection, then packs the provided data in cells, then sends the cells as message to the smart contract when user signs the transaction on the device.
