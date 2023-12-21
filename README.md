@@ -48,3 +48,7 @@ A4: [MineMessageParams] indicates what meesage is expected to be read from the s
 ### How to run the code?
 
 Cloned the github repository of the onboarding challenge to the local environment, install required package, then copy and paste the index.ts file to the local repository folder and replace the wallet address with the personal wallet address on Testnet.
+
+### What does the program do?
+
+Generally, the program packs the provided data in cells, then sends the cells as message to the smart contract when user signs the transaction on the device.
