@@ -51,7 +51,7 @@ A5: Certainly! Please check Step 9 of TON Hello World: https://ton-community.git
 
 ```ts
 await walletContract.sendTransfer({
-  secretKey: key.secretKey, // Replace with private key string in here
+  secretKey: key.secretKey, // Private Key
   seqno: seqno,
   messages: [
     internal({
