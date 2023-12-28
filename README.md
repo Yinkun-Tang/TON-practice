@@ -47,7 +47,23 @@ A4: [MineMessageParams] indicates what meesage is expected to be read from the s
 
 Q5: I would like to sign the transaction directly using private key instead of QR code, is it possible?
 
-A5: Certainly! Please check Step 9 of TON Hello World: https://ton-community.github.io/tutorials/01-wallet/
+A5: Certainly! Please check Step 9 of TON Hello World: https://ton-community.github.io/tutorials/01-wallet/. Here is the code:
+
+```ts
+await walletContract.sendTransfer({
+  secretKey: key.secretKey, // Replace with private key string in here
+  seqno: seqno,
+  messages: [
+    internal({
+      to: "EQA4V9tF4lY2S_J-sEQR7aUj9IwW-Ou2vJQlCn--2DLOLR5e",
+      value: "0.05",
+      body: "Hello",
+      bounce: false,
+    })
+  ]
+});
+
+```
 
 ### How to run the code?
 
